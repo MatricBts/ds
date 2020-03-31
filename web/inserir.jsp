@@ -8,14 +8,14 @@
     </head>
     <body>
         <form action="executa_inserir.jsp" method="post">
-            <label>Codigo:</label><br>
-            <input type="text" name="codigo" /><br>
+            <!--<label>Codigo:</label><br>
+            <input type="text" name="codigo" /><br> -->
             
             <label>Descrição:</label><br>
-            <input type="text" name="codigo" /><br>
+            <input type="text" name="descricao" /><br>
             
             <label>Preço:</label><br>
-            <input type="text" name="codigo" /><br>
+            <input type="text" name="preco" /><br>
             
             <button type="submit">OK</button>
             
