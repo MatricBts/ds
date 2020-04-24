@@ -1,0 +1,9 @@
+create database mercado;
+use mercado;
+create table produto(
+id int(11) auto_increment,
+descricao_produto varchar (100) not null,
+preco_produto double (15,2),
+
+primary key(id)
+);
